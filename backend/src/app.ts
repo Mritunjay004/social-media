@@ -12,7 +12,11 @@ const app = express();
 app.use(morgan("dev"));
 app.use(
   cors({
-    origin: "https://social-media-two-tau.vercel.app",
+    origin: [
+      "https://social-media-two-tau.vercel.app",
+      "http://localhost:5000",
+    ],
+    methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
   })
 );
