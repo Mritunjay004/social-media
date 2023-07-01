@@ -22,6 +22,10 @@ app.use(express.json());
 app.use("/api/users", userRoutes);
 app.use("/api/tweets", requiresAuth, tweetsRoutes);
 
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
 app.use((req, res, next) => {
   next(createHttpError(404, "Endpoint not found"));
 });
