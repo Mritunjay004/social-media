@@ -12,10 +12,7 @@ const app = express();
 app.use(morgan("dev"));
 app.use(
   cors({
-    origin: [
-      "https://social-media-frontend-rosy.vercel.app",
-      "http://localhost:5000",
-    ],
+    origin: "https://social-media-frontend-rosy.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     credentials: true,
   })
