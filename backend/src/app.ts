@@ -13,7 +13,7 @@ app.use(morgan("dev"));
 app.use(
   cors({
     origin: [
-      "https://social-media-two-tau.vercel.app",
+      "https://social-media-frontend-rosy.vercel.app",
       "http://localhost:5000",
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
