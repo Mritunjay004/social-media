@@ -17,6 +17,6 @@ The implementation of TypeScript ensures robust type checking and enhances the c
 ⚡️ Clean Code and Scalable Architecture
 The Twitter clone has been meticulously crafted using best practices and follows industry-standard code architecture. With MongoDB's power and scalability, the database schema has been designed to accommodate future growth and ensure a smooth user experience even as the user base expands.
 
-🌐 Live Demo: [soon....]
+🌐 Live Demo: [https://social-media-frontend-rosy.vercel.app/]
 
 Enjoy your journey through the Twitter clone and happy tweeting! 😄✨
